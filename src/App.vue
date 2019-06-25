@@ -44,16 +44,12 @@ export default {
   components: {},
   methods: {
     handleSelect(key, keyPath) {
-      console.log(key, keyPath);
+      console.log('菜单', key, keyPath);
     }
   },
 }
 
 </script>
-
-
-
-
 <!-- 样式 -->
 <style>
 * {
